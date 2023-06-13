@@ -12,24 +12,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&family=Roboto&family=Rock+Salt&display=swap" rel="stylesheet">
     <!-- FontAwesome Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>DOM manipulation P2</title>
 </head>
 <body>
-     <!-- Modal Open Button -->
-     <button id="open-btn">
-        <p>Where's our modal</p>
-     </button>
+    <div class="accordion">
+        <h2 class="accordion-title">
+            Frequently Asked Questions
+        </h2>
 
-     <!-- Modal & Modal Background -->
-     <div id="modal-container">
-        <div id="modal">
-            <p>Here I am!</p>
-            <div id="close-btn">&times;</div>
+        <div class="content-container">
+            <div class="question">What is the return policy</div>
+            <div class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum numquam sapiente magnam sed assumenda vel tenetur itaque asperiores! Nulla, numquam perferendis inventore tempore odio tenetur sit similique maiores recusandae aperiam.</div>
+            </div>
+        <div class="content-container">
+            <div class="question">When will I receive my order</div>
+            <div class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum numquam sapiente magnam sed assumenda vel tenetur itaque asperiores! Nulla, numquam perferendis inventore tempore odio tenetur sit similique maiores recusandae aperiam.</div>
+            </div>
+        <div class="content-container">
+            <div class="question">Where are you located</div>
+            <div class="answer">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum numquam sapiente magnam sed assumenda vel tenetur itaque asperiores! Nulla, numquam perferendis inventore tempore odio tenetur sit similique maiores recusandae aperiam.</div>
         </div>
-     </div>
-
-     <!-- SCRIPT -->
-     <script src="modal.js"></script>
-
-</body> 
-</html>   
+    </div>
+    <script src="accordion.js"></script>
+</body>
+</html>
